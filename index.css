@@ -94,10 +94,13 @@ button:hover{
     button {
         width: 100px;}
     #readmoreMain {
-        margin:0%
+        width: 170px;
+        margin-left: 1%;
+    }
+
     }
      
-}
+
 
 .hiIm {
     font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -167,7 +170,7 @@ align-items: end;
 }
 
 #readmoreMain {
-    margin-left: 60%;
+    margin-left: 50%;
 
 }
 
