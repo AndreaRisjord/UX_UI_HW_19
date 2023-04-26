@@ -11,13 +11,13 @@ body {
 }}
 
 h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 36px;
     color: #405794;
 }
 
 h2 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 24px;
     color:#405794;
 }
@@ -37,7 +37,7 @@ h4 {
 }
 
 h5 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -48,11 +48,11 @@ h5 {
 }
 
 h6{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 48px;
     letter-spacing: 0.05em;
     -webkit-text-stroke-color: #405794;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 0.25px;
     -webkit-text-fill-color: #fbf7ea;
     text-shadow: 4px 4px 0px #f0e800;
 }
@@ -67,7 +67,7 @@ p {
 button{
     width: 170px;
     height: 45px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -93,10 +93,14 @@ button:hover{
 @media only screen and (max-width:850px) {
     button {
         width: 100px;}
+    #readmoreMain {
+        margin:0%
+    }
+     
 }
 
 .hiIm {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
     color: #405794;
     margin-right: 30px;
@@ -105,13 +109,13 @@ button:hover{
 }
 
 .andreaHeader {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #405794;
     font-size: 250px;
     font-weight: bold;
-    padding: 0px, 0px, 0px, 0px;
     margin-bottom: 0px;
     margin-top: 0px;
+    
 }
 
 .pageHeader{
@@ -128,10 +132,17 @@ button:hover{
 
 .Nav{
 display: flex;
+flex-direction: column;
 align-items: center;
 padding-top: 20px;
 padding-right: 30px;
 padding-left: 30px;
+border-right: #405794 1px solid;
+}
+
+.pageNav {
+    display: flex;
+    flex-direction: column;
 }
 
 #aboutMe{
@@ -148,10 +159,16 @@ padding-right: 5%;
 border-right: #405794 1px solid;
 }
 
+.rightfloatButton {
+display: flex;
+flex-direction: row;
+align-items: end;
+
+}
+
 #readmoreMain {
-    float: right;
-    display: none;
-;
+    margin-left: 60%;
+
 }
 
 .mainPort{
@@ -162,13 +179,7 @@ border-right: #405794 1px solid;
     padding: 2%;
 }
 
-.Nav{
-    padding: 10px, 20px, 20px, 10px;
-    border-right: #405794 1px solid;
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-}
+
 
 .mySkills{
     display: flex;
