@@ -41,10 +41,10 @@ h5 {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 24px;
     letter-spacing: 0.15em;
     font-variant: all-small-caps;
     color: #405794;
+    margin: 10px;
 }
 
 h6{
@@ -52,9 +52,10 @@ h6{
     font-size: 48px;
     letter-spacing: 0.05em;
     -webkit-text-stroke-color: #405794;
-    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-width: 0.10px;
     -webkit-text-fill-color: #fbf7ea;
     text-shadow: 4px 4px 0px #f0e800;
+    margin:10px;
 }
 
 
@@ -148,6 +149,10 @@ border-right: #405794 1px solid;
 .pageNav {
     display: flex;
     flex-direction: column;
+}
+
+.slogan{
+    margin-top: 30%;
 }
 
 #aboutMe{
@@ -254,13 +259,63 @@ align-items: end;
     margin:20px auto;
 }
 
+.letsConnect{
+display: block;
+border-top: #405794 1px solid;
+margin-top: 2%;
+}
+
+.letsconnectHeader{
+    font-family: 'Anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+    letter-spacing: 0.05em;
+    -webkit-text-stroke-color: #405794;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: #fbf7ea;
+    text-shadow: 4px 4px 0px #f0e800;
+    margin:10px;
+    border-bottom: #405794 1px solid;
+text-align: center;
+}
+.connectContent {
+    display: flex;
+}
+.connectPhotos {
+    display: flex;
+    width: 40%;
+    border-right: #405794 1px solid;
+    padding: 2%;
+
+
+}
+.connectInfo{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.connectIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.LinkedInconnect {
+    margin: 20%;
+    
+}
+
+.Instagramconnect {
+    margin: 20%;
+}
 
 .footer{
-    height: 400px;
+    height: 200px;
     border-top: #405794 solid 1px;
     display: flex;
     flex-direction: column;
-    margin-top: 70px;
+    margin-top: 20px;
     margin-left: 70px;
     margin-right: 70px;
     margin-bottom: 30px;
@@ -273,11 +328,13 @@ align-items: end;
     flex-direction:row;
     justify-content: center;
     width: 100vw;
+    margin-top: 40px;
 
 }
 
 .footerCenter{
 display: flex;
+height: 200px;
 }
 
 .footerMenu{
@@ -286,7 +343,6 @@ display: flex;
     
 }
     .footerImage{
-    visibility: hidden;
     width: 45%;
     }
 
@@ -296,6 +352,7 @@ display: flex;
         justify-content: center;
         padding: 10%;
         padding-left: 15%;
+
 
     }
 
@@ -311,11 +368,11 @@ display: flex;
         width: fit-content;
     }
     .LinkedIn {
-        margin: 45%;
+        margin: 10%;
     }
 
     .Instagram {
-        margin: 45%;
+        margin: 10%;
     }
 
     .sloganFooter{
