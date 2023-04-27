@@ -219,29 +219,32 @@ align-items: end;
 
 .softSkills{
     display: flex;
-    flex: 30%;
+    flex: 20%;
     flex-direction: column;
     justify-content: center;
-    padding: 80px;
+    padding: 50px;
+    padding-top: 20px;
+    text-align: center;
 }
 
 .designSkills {
     display: flex;
     flex-direction: column;
-    flex: 30%;
+    flex: 20%;
     border-right: 1px solid #405794;
     border-left: 1px solid  #405794;
     justify-content: center;
-    padding: 80px;
+    padding: 50px;
+    text-align: center;
     
 }
 
 .toolsList{
    display: flex;
    flex-direction: column;
-   flex: 30%;
-   justify-content: center;
-   padding: 80px;
+   flex: 20%;
+   padding: 45px;
+   text-align: center;
     
 }
 
