@@ -253,10 +253,34 @@ align-items: end;
     
 }
 
-.myWork{
+.myWork1{
     display: flex;
     border-top: 1px solid #405794;
     margin:20px auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.myWork2 {
+    display: flex;
+    border-top: 1px solid #405794;
+    margin:20px auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.mockups {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.casestudyBlurb{
+    margin-top: 25px;
+    width: 70%;
 }
 
 .letsConnect{
