@@ -1,9 +1,8 @@
 
 console.log("Your index.js file is loaded correctly!");
 
-<script src="https://code.jquery.com/jquery-3.6.3.js"></script>
 
 $( "#mockUp" ).hover(function() {
-    $( this ).fadeOut( 100 );
-    $( this ).fadeIn( 500 );
+    $( this ).fadeOut( 1000 );
+    $( this ).fadeIn( 1000 );
   });
